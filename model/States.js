@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
+
 
 
 const stateSchema = new Schema({
@@ -8,7 +9,7 @@ const stateSchema = new Schema({
     required: true,
     unique: true 
  },
- funfact: [{type: String}]
+ funfacts: [{type: String}]
 
 })
 
